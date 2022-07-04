@@ -15,7 +15,7 @@ class DisplayableAlbumsTransformerTest {
     }
 
     @Test
-    fun `transformAlbum with a product`() {
+    fun `transformAlbum with a album`() {
         // Given
         val album = Albums(
             albumsId = 12345,

@@ -40,10 +40,10 @@ class AlbumsRepositoryImplTest {
         server.enqueue(response)
 
         // When
-        val products = repository.fetchAlbums()
+        val albums = repository.fetchAlbums()
 
         // Then
-        Assert.assertNull(products)
+        Assert.assertNull(albums)
     }
 
     @Test
@@ -54,10 +54,10 @@ class AlbumsRepositoryImplTest {
         server.enqueue(response)
 
         // When
-        val products = repository.fetchAlbums()
+        val albums = repository.fetchAlbums()
 
         // Then
-        Assert.assertNull(products)
+        Assert.assertNull(albums)
     }
 
     @Test
