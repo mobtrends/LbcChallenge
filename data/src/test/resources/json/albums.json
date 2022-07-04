@@ -1,0 +1,16 @@
+[
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "accusamus",
+    "url": "link1",
+    "thumbnailUrl": "thumbLink1"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "reprehenderit",
+    "url": "link2",
+    "thumbnailUrl": "thumbLink2"
+  }
+]
