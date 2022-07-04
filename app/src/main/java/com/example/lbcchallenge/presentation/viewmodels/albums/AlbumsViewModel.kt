@@ -32,14 +32,13 @@ class AlbumsViewModel(
                     transformer.transformAlbums(album)
                 })
             )
-        } ?: kotlin.run {
+        } ?: run {
             _displayState.postValue(AlbumsDisplayState.Error)
         }
     }
 }
 
 sealed class AlbumsDisplayState {
-
     object Loading : AlbumsDisplayState()
     object Error : AlbumsDisplayState()
     data class Success(val albums: List<DisplayableAlbum>) : AlbumsDisplayState()
